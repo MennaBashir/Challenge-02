@@ -1,0 +1,38 @@
+.container{
+    padding: 20px;
+    background-color: #d5e1ef;
+    min-height: 100vh;
+}
+.container main{
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 12px;
+    border-radius: 6px;
+}
+.container main img{
+    width: 200px;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.container main section{
+    width: 200px;
+    padding-left: 10px;
+    margin-right: -8px;
+}
+.container main section h4{
+    color: #212e40;
+    font-size: 18px;
+    margin-top: 12px;
+    line-height: 1.3;
+    
+}
+.container main section p{
+    margin-top: -12px;
+    padding-left: 7px;
+    color: #6e747c;
+    font-size: 15px;
+}
